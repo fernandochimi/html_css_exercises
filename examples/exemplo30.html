@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo Email Form</title>
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<form method='post' action=''>
+		<p>
+			<label for='email'>Email: </label>
+			<input type='email' id='email' name='email'>
+			<span class='hint'>por exemplo, seunome@dominio.com.</span>
+			<span class='error'>Preencha seu email</span>
+		</p>
+		<p>
+			<label for='subject'>Assunto: </label>
+			<input type='text' id='subject'>
+			<span class='hint'>Nos diga seu problema ou ideia</span>
+		</p>
+		<p>
+			<label for='content'>Mensagem: </label>
+			<textarea id='content'></textarea>
+			<span class='hint'>Escreva sua mensagem em até 500 caracteres</span>
+		</p>
+		<button>Enviar</button>
+	</form>
+</body>
+</html>
