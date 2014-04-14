@@ -1,0 +1,24 @@
+h1 {
+	-webkit-animation: appear 2s 0 linear;
+	color: #000;
+	font-size: 1.4em;
+	text-align: center;
+	-webkit-transform: scale(1.2);
+	-webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes appear {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(2);
+	}
+
+	70% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+
+	100% {
+		-webkit-transform: scale(1.2);
+	}
+}

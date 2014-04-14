@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo User Password</title>
+	<link rel="stylesheet" href="css/formtwo.css">
+</head>
+<body>
+	<form method='post' action=''>
+		<label for='username'>Usuário</label>
+		<input type='text' id='username' placeholder='Usuário'>
+		<label for='password'>Senha</label>
+		<input type='password' id='password' placeholder='Senha'>
+		<button>Entrar</button>
+	</form>
+</body>
+</html>
+
+<script type="text/javascript">
+jQuery(function($) {
+	function supportsPlaceholder() {
+		return 'placeholder' in document.createElement('input') &&
+		'placeholder' in document.createElement('textarea');
+	}
+	if(!supportsPlaceholder()) {
+		$('html').addClass('no-placeholder')
+	}
+});
+</script>
